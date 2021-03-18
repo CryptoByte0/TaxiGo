@@ -1,0 +1,343 @@
+@media(max-width:1443px) {
+    .order__card {
+        margin: 160px auto auto 0%;
+    }
+    .bg-img {
+        right: 0%;
+        top: -21.4%;
+        width: 51%;
+    }
+    .back {
+        top: 3%;
+    }
+}
+
+@media(max-width: 1326px){
+    .card {
+        margin-top: 20px;
+    }
+    .back {
+        top: 51%;
+    }
+}
+
+@media (max-width: 1156px){
+    .bg-img {
+        right: 0%;
+        top: -11.4%;
+        width: 51%;
+    }
+}
+@media (max-width: 1152px){
+    .bg-img {
+        right: 0%;
+        top: -2.6%;
+        width: 44%;
+    }
+}
+
+@media(max-width:1024px) {
+    .bg-img {
+        right: 0%;
+        top: 3.6%;
+        width: 45%;
+    }
+    .order__card {
+        margin: 110px auto auto 0%;
+    }
+}
+
+@media(max-width:993px) {
+    .order__card {
+        margin: 110px auto auto auto;
+    }
+    .bg-img {
+        display: none;
+    }
+}
+
+@media(max-width:834px) {
+    .menu__items {
+        display: none;
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        padding-left: 0;
+        z-index: 5;
+    }
+    .menu__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+        background-color: #5754D5;
+        border-bottom: 1px solid #000;
+        padding: 0;
+    }
+    .burger__menu span{
+        display: block;
+    }
+    .menu__item:hover > .dot {
+        display: none;
+    }
+
+    .download__title {
+        font-size: 45px;
+        line-height: 68px;
+    }
+}
+
+@media(max-width:700px) {
+    .back {
+        top: 0.3%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 99;
+    }
+    .cards {
+        padding-top: 100px;
+    }
+    
+}
+
+@media(max-width:674px) {
+    .google-btn {
+        padding: 17px 41px 17px 60px;
+    }
+    .google-btn::before {
+        left: 6px;
+    }
+}
+
+
+
+@media(max-width:554px) {
+    .pickup-location input,
+    .destination input {
+        padding: 0px 61px 0 50px;
+    }
+    .login__options a {
+        font-size: 20px;
+    }
+}
+@media(max-width:530px) {
+    .pickup-location input,
+    .destination input {
+        padding: 0px 40px 0 50px;
+    }
+}
+@media(max-width:510px){
+    .pickup-location input,
+    .destination input {
+        padding: 0px 20px 0 50px;
+    }
+    .login__phone,
+    .password {
+        padding: 19px 30px 19px 30px;
+    }
+    .google-btn {
+        font-size: 18px;
+    }
+}
+@media(max-width:490px){
+    .pickup-location input,
+    .destination input {
+        padding: 0px 0px 0 50px;
+    }
+
+    .apps {
+        display: block;
+    }
+    .appstore + .googlepaly {
+        padding: 0px;
+    }
+
+    .appstore,
+    .googlepaly{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .pickup-location::after,
+    .destination::after {
+        right: 83px;
+    }
+}
+@media(max-width:464px){
+    .pickup-location::before,
+    .destination::before {
+        left: 80px;
+    }
+
+    .pickup-location::after,
+    .destination::after {
+        display: none;
+    }
+    .phone input {
+        border: 2px solid #5754D5;
+        box-sizing: border-box;
+        border-radius: 10px 0px 0px 10px;
+        padding: 18px 0px 18px 21px;
+        outline: none;
+    }
+}
+@media(max-width:440px){
+    .pickup-location::before,
+    .destination::before {
+        left: 68px;
+    }
+}
+
+@media(max-width:420px) {
+    .logo a img {
+        width: 90%;
+    }
+    .order__card {
+        margin: 27px auto auto auto;
+    }
+    .log-in a {
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0px 12px;
+        line-height: 20px;
+    }
+    .order__card-title {
+        padding-top: 26px;
+        font-size: 27px;
+    }
+    .order__card-suptitle {
+        padding-top: 21px;
+        padding-bottom: 30px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .pickup-location input,
+    .destination input {
+        padding: 0px 0px 0 50px;
+    }
+    .pickup-location::before,
+    .destination::before {
+        left: 61px;
+    }
+    .pickup-location::after,
+    .destination::after {
+        right: 0px;
+    }
+    #location::before {
+        left: 21px;
+    }
+}
+
+@media(max-width:394px){
+    .pickup-locatin::before,
+    .destination::before {
+        left: 43px;
+    }
+}
+
+@media(max-width:364px){
+    .logo a img {
+        width: 90%;
+    }
+    .order__card {
+        margin: 27px auto auto auto;
+    }
+    .log-in a {
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0px 12px;
+        line-height: 20px;
+    }
+    .order__card-title {
+        padding-top: 26px;
+        font-size: 27px;
+    }
+    .order__card-suptitle {
+        padding-top: 21px;
+        padding-bottom: 30px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .pickup-location input,
+    .destination input {
+        padding: 0px 0px 0 50px;
+    }
+    .pickup-location::before,
+    .destination::before {
+        left: 14px;
+    }
+    .pickup-location::after,
+    .destination::after {
+        right: 0px;
+    }
+    #location::before {
+        left: -8px;
+    }
+    .download__title {
+        font-size: 31px;
+        line-height: 45px;
+    }
+    .login__options a {
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:320px) {
+    .logo a img {
+        width: 90%;
+    }
+    .order__card {
+        margin: 27px auto auto auto;
+    }
+    .log-in a {
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0px 12px;
+        line-height: 20px;
+    }
+    .order__card-title {
+        padding-top: 26px;
+        font-size: 27px;
+    }
+    .order__card-suptitle {
+        padding-top: 21px;
+        padding-bottom: 30px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .pickup-location input,
+    .destination input {
+        padding: 0px 0px 0 50px;
+    }
+    .pickup-location::before,
+    .destination::before {
+        left: 14px;
+    }
+    .pickup-location::after,
+    .destination::after {
+        right: 0px;
+    }
+    #location::before {
+        left: -8px;
+    }
+    .download__title {
+        font-size: 31px;
+        line-height: 45px;
+    }
+}
+
+@media(min-width:835px) {
+    .menu__items {
+        display: flex !important;
+    }
+}
+
