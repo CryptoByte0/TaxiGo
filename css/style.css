@@ -16,6 +16,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 ul, li {
@@ -80,9 +81,11 @@ ul, li {
     color: #F42B56;
 }
 
-.menu__item:focus > a{
-    color: #F42B56;
+.menu__item {
+    transition: .3s ease-in-out;
 }
+
+
 
 .menu__item:hover > .dot {
     position: absolute;
@@ -106,7 +109,9 @@ ul, li {
     align-items: center;
 }
 
-.log-in a{
+
+
+.log-in{
     color: #fff;
     padding: 9px 20px;
     background: #F42B56;
@@ -118,7 +123,15 @@ ul, li {
     transition: .3s ease-in-out;
 }
 
-.log-in a:hover {
+.menu__item-link {
+    transition: .3s ease-in-out;
+}
+
+.menu__item-link:hover {
+    color:#F42B56;
+}
+
+.log-in:hover {
     border: 2px solid #fff;
 }
 
